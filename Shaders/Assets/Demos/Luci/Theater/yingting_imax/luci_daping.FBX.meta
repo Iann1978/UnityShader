@@ -1,0 +1,2289 @@
+fileFormatVersion: 2
+guid: 4f1b6405f474d2a4ea342c37e77d8930
+timeCreated: 1517982744
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 10pai
+    100002: 11pai
+    100004: 1pai
+    100006: 2pai
+    100008: 3pai
+    100010: 4pai
+    100012: 5pai
+    100014: 6pai
+    100016: 7pai
+    100018: 8pai
+    100020: 9pai
+    100022: C_C_shafa_vray_2K009
+    100024: C_C_shafa_vray_2K010
+    100026: C_C_shafa_vray_2K011
+    100028: C_C_shafa_vray_2K012
+    100030: C_C_shafa_vray_2K013
+    100032: C_C_shafa_vray_2K014
+    100034: C_C_shafa_vray_2K015
+    100036: C_C_shafa_vray_2K016
+    100038: C_C_shafa_vray_2K017
+    100040: C_C_shafa_vray_2K018
+    100042: C_C_shafa_vray_2K019
+    100044: ceqiang
+    100046: floor
+    100048: houqiang
+    100050: luci
+    100052: //RootNode
+    100054: shafa 419
+    100056: shafa 420
+    100058: shafa 421
+    100060: shafa 422
+    100062: shafa 423
+    100064: shafa 424
+    100066: shafa 425
+    100068: shafa 426
+    100070: shafa 427
+    100072: shafa 428
+    100074: shafa 429
+    100076: shafa 430
+    100078: shafa 431
+    100080: shafa 432
+    100082: shafa 433
+    100084: shafa 434
+    100086: shafa 435
+    100088: shafa 436
+    100090: shafa 437
+    100092: shafa 438
+    100094: shafa 439
+    100096: shafa 440
+    100098: shafa 441
+    100100: shafa 442
+    100102: shafa 443
+    100104: shafa 444
+    100106: shafa 445
+    100108: shafa 446
+    100110: shafa 447
+    100112: shafa 448
+    100114: shafa 449
+    100116: shafa 450
+    100118: shafa 451
+    100120: shafa 452
+    100122: shafa 453
+    100124: shafa 454
+    100126: shafa 455
+    100128: shafa 456
+    100130: shafa 457
+    100132: shafa 458
+    100134: shafa 459
+    100136: shafa 460
+    100138: shafa 461
+    100140: shafa 462
+    100142: shafa 463
+    100144: shafa 464
+    100146: shafa 465
+    100148: shafa 466
+    100150: shafa 467
+    100152: shafa 468
+    100154: shafa 469
+    100156: shafa 470
+    100158: shafa 471
+    100160: shafa 472
+    100162: shafa 473
+    100164: shafa 474
+    100166: shafa 475
+    100168: shafa 476
+    100170: shafa 477
+    100172: shafa 478
+    100174: shafa 479
+    100176: shafa 480
+    100178: shafa 481
+    100180: shafa 482
+    100182: shafa 483
+    100184: shafa 484
+    100186: shafa 485
+    100188: shafa 486
+    100190: shafa 487
+    100192: shafa 488
+    100194: shafa 489
+    100196: shafa 490
+    100198: shafa 491
+    100200: shafa 492
+    100202: shafa 493
+    100204: shafa 494
+    100206: shafa 495
+    100208: shafa 496
+    100210: shafa 497
+    100212: shafa 498
+    100214: shafa 499
+    100216: shafa 500
+    100218: shafa 501
+    100220: shafa 502
+    100222: shafa 503
+    100224: shafa 504
+    100226: shafa 505
+    100228: shafa 506
+    100230: shafa 507
+    100232: shafa 508
+    100234: shafa 509
+    100236: shafa 510
+    100238: shafa 511
+    100240: shafa 512
+    100242: shafa 513
+    100244: shafa 514
+    100246: shafa 515
+    100248: shafa 516
+    100250: shafa 517
+    100252: shafa 518
+    100254: shafa 519
+    100256: shafa 520
+    100258: shafa 521
+    100260: shafa 522
+    100262: shafa 523
+    100264: shafa 524
+    100266: shafa 525
+    100268: shafa 526
+    100270: shafa 527
+    100272: shafa 528
+    100274: shafa 529
+    100276: shafa 530
+    100278: shafa 531
+    100280: shafa 532
+    100282: shafa 533
+    100284: shafa 534
+    100286: shafa 535
+    100288: shafa 536
+    100290: shafa 537
+    100292: shafa 538
+    100294: shafa 539
+    100296: shafa 540
+    100298: shafa 541
+    100300: shafa 542
+    100302: shafa 543
+    100304: shafa 544
+    100306: shafa 545
+    100308: shafa 546
+    100310: shafa 547
+    100312: shafa 548
+    100314: shafa 549
+    100316: shafa 550
+    100318: shafa 551
+    100320: shafa 552
+    100322: shafa 553
+    100324: shafa 554
+    100326: shafa 555
+    100328: shafa 556
+    100330: shafa 557
+    100332: shafa 558
+    100334: shafa 559
+    100336: shafa 560
+    100338: shafa 561
+    100340: shafa 562
+    100342: shafa 563
+    100344: shafa 564
+    100346: shafa 565
+    100348: shafa 566
+    100350: shafa 567
+    100352: shafa 568
+    100354: shafa 569
+    100356: shafa 570
+    100358: shafa 571
+    100360: shafa 572
+    100362: shafa 573
+    100364: shafa 574
+    100366: shafa 575
+    100368: shafa 576
+    100370: shafa 577
+    100372: shafa 578
+    100374: shafa 579
+    100376: shafa 580
+    100378: shafa 581
+    100380: shafa 582
+    100382: shafa 583
+    100384: shafa 584
+    100386: shafa 585
+    100388: shafa 586
+    100390: shafa 587
+    100392: shafa 588
+    100394: shafa 589
+    100396: shafa 590
+    100398: shafa 591
+    100400: shafa 592
+    100402: shafa 593
+    100404: shafa 594
+    100406: shafa 595
+    100408: shafa 596
+    100410: shafa 597
+    100412: shafa 598
+    100414: shafa 599
+    100416: shafa 600
+    100418: shafa 601
+    100420: shafa 602
+    100422: shafa 603
+    100424: shafa 604
+    100426: shafa 605
+    100428: shafa 606
+    100430: shafa 607
+    100432: shafa 608
+    100434: shafa 609
+    100436: shafa 610
+    100438: shafa 611
+    100440: shafa 612
+    100442: shafa 613
+    100444: shafa 614
+    100446: shafa 615
+    100448: shafa 616
+    100450: shafa 617
+    100452: shafa 618
+    100454: shafa 619
+    100456: shafa 620
+    100458: shafa 621
+    100460: shafa 622
+    100462: shafa 623
+    100464: shafa 624
+    100466: shafa 625
+    100468: shafa 626
+    100470: shafa 627
+    100472: shafa 628
+    100474: shafa 629
+    100476: shafa 630
+    100478: shafa 631
+    100480: shafa 632
+    100482: shafa 633
+    100484: shafa 634
+    100486: shafa 635
+    100488: shafa 636
+    100490: shafa 637
+    100492: shafa 638
+    100494: shafa 639
+    100496: shafa 640
+    100498: shafa 641
+    100500: shafa 642
+    100502: shafa 643
+    100504: shafa 644
+    100506: shafa 645
+    100508: shafa 646
+    100510: shafa 647
+    100512: shafa 648
+    100514: shafa 649
+    100516: shafa 650
+    100518: shafa 651
+    100520: shafa 652
+    100522: shafa 653
+    100524: shafa 654
+    100526: shafa 655
+    100528: shafa 656
+    100530: shafa 657
+    100532: shafa 658
+    100534: shafa 659
+    100536: shafa 660
+    100538: shafa 661
+    100540: shafa 662
+    100542: shafa 663
+    100544: shafa 664
+    100546: shafa 665
+    100548: shafa 666
+    100550: shafa 667
+    100552: shafa 668
+    100554: shafa 669
+    100556: shafa 670
+    100558: shafa 671
+    100560: shafa 672
+    100562: shafa 673
+    100564: shafa 674
+    100566: shafa 675
+    100568: shafa 676
+    100570: shafa 677
+    100572: shafa 678
+    100574: shafa 679
+    100576: shafa 680
+    100578: shafa 681
+    100580: shafa 682
+    100582: shafa 683
+    100584: shafa 684
+    100586: shafa 685
+    100588: shafa 686
+    100590: shafa 687
+    100592: shafa 688
+    100594: shafa 689
+    100596: shafa 690
+    100598: shafa 691
+    100600: shafa 692
+    100602: shafa 693
+    100604: shafa 694
+    100606: shafa 695
+    100608: shafa 696
+    100610: shafa 697
+    100612: shafa 698
+    100614: shafa 699
+    100616: shafa 704
+    100618: shafa 705
+    100620: shafa 706
+    100622: shafa 707
+    100624: shafa 708
+    100626: shafa 709
+    100628: shafa 710
+    100630: shafa 711
+    100632: shafa 712
+    100634: shafa 713
+    100636: shafa 714
+    100638: shafa 715
+    100640: shafa 716
+    100642: shafa 717
+    100644: shafa 718
+    100646: shafa 719
+    100648: shafa 720
+    100650: shafa 721
+    100652: shafa 722
+    100654: shafa 723
+    100656: shafa 724
+    100658: shafa 725
+    100660: shafa 726
+    100662: shafa 727
+    100664: shafa 728
+    100666: shafa 729
+    100668: shafa 730
+    100670: shafa 731
+    100672: shafa 732
+    100674: shafa 733
+    100676: shafa 734
+    100678: shafa 739
+    100680: shafa 745
+    100682: shafa 746
+    100684: shafa 747
+    100686: shafa 748
+    100688: shafa 749
+    100690: shafa 750
+    100692: shafa 751
+    100694: shafa 752
+    100696: shafa 753
+    100698: shafa 754
+    100700: shafa 755
+    100702: shafa 756
+    100704: shafa 757
+    100706: shafa 758
+    100708: shafa 759
+    100710: shafa 760
+    100712: shafa 761
+    100714: shafa 762
+    100716: shafa 763
+    100718: shafa 764
+    100720: shafa 765
+    100722: shafa 766
+    100724: shafa 767
+    100726: shafa 768
+    100728: shafa 769
+    100730: shafa 770
+    100732: shafa 771
+    100734: shafa 772
+    100736: shafa 773
+    100738: shafa 779
+    100740: shafa 785
+    100742: shafa 786
+    100744: shafa 787
+    100746: shafa 788
+    100748: shafa 789
+    100750: shafa 790
+    100752: shafa 791
+    100754: shafa 792
+    100756: shafa 793
+    100758: shafa 794
+    100760: shafa 795
+    100762: shafa 796
+    100764: shafa 797
+    100766: shafa 798
+    100768: shafa 799
+    100770: shafa 800
+    100772: shafa 801
+    100774: shafa 802
+    100776: shafa 803
+    100778: shafa 804
+    100780: shafa 805
+    100782: shafa 806
+    100784: shafa 807
+    100786: shafa 808
+    100788: shafa 809
+    100790: shafa 810
+    100792: shafa 811
+    100794: shafa 812
+    100796: shafa 813
+    100798: shafa 819
+    100800: shafa 826
+    100802: shafa 827
+    100804: shafa 828
+    100806: shafa 829
+    100808: shafa 830
+    100810: shafa 831
+    100812: shafa 832
+    100814: shafa 833
+    100816: shafa 834
+    100818: shafa 835
+    100820: shafa 836
+    100822: shafa 837
+    100824: shafa 838
+    100826: shafa 839
+    100828: shafa 840
+    100830: shafa 841
+    100832: shafa 842
+    100834: shafa 843
+    100836: shafa 844
+    100838: shafa 845
+    100840: shafa 846
+    100842: shafa 847
+    100844: shafa 848
+    100846: shafa 849
+    100848: shafa 850
+    100850: shafa 851
+    100852: shafa 852
+    100854: waiqiang
+    100856: wuding
+    100858: pingmu
+    100860: waiqiang_floor
+    400000: 10pai
+    400002: 11pai
+    400004: 1pai
+    400006: 2pai
+    400008: 3pai
+    400010: 4pai
+    400012: 5pai
+    400014: 6pai
+    400016: 7pai
+    400018: 8pai
+    400020: 9pai
+    400022: C_C_shafa_vray_2K009
+    400024: C_C_shafa_vray_2K010
+    400026: C_C_shafa_vray_2K011
+    400028: C_C_shafa_vray_2K012
+    400030: C_C_shafa_vray_2K013
+    400032: C_C_shafa_vray_2K014
+    400034: C_C_shafa_vray_2K015
+    400036: C_C_shafa_vray_2K016
+    400038: C_C_shafa_vray_2K017
+    400040: C_C_shafa_vray_2K018
+    400042: C_C_shafa_vray_2K019
+    400044: ceqiang
+    400046: floor
+    400048: houqiang
+    400050: luci
+    400052: //RootNode
+    400054: shafa 419
+    400056: shafa 420
+    400058: shafa 421
+    400060: shafa 422
+    400062: shafa 423
+    400064: shafa 424
+    400066: shafa 425
+    400068: shafa 426
+    400070: shafa 427
+    400072: shafa 428
+    400074: shafa 429
+    400076: shafa 430
+    400078: shafa 431
+    400080: shafa 432
+    400082: shafa 433
+    400084: shafa 434
+    400086: shafa 435
+    400088: shafa 436
+    400090: shafa 437
+    400092: shafa 438
+    400094: shafa 439
+    400096: shafa 440
+    400098: shafa 441
+    400100: shafa 442
+    400102: shafa 443
+    400104: shafa 444
+    400106: shafa 445
+    400108: shafa 446
+    400110: shafa 447
+    400112: shafa 448
+    400114: shafa 449
+    400116: shafa 450
+    400118: shafa 451
+    400120: shafa 452
+    400122: shafa 453
+    400124: shafa 454
+    400126: shafa 455
+    400128: shafa 456
+    400130: shafa 457
+    400132: shafa 458
+    400134: shafa 459
+    400136: shafa 460
+    400138: shafa 461
+    400140: shafa 462
+    400142: shafa 463
+    400144: shafa 464
+    400146: shafa 465
+    400148: shafa 466
+    400150: shafa 467
+    400152: shafa 468
+    400154: shafa 469
+    400156: shafa 470
+    400158: shafa 471
+    400160: shafa 472
+    400162: shafa 473
+    400164: shafa 474
+    400166: shafa 475
+    400168: shafa 476
+    400170: shafa 477
+    400172: shafa 478
+    400174: shafa 479
+    400176: shafa 480
+    400178: shafa 481
+    400180: shafa 482
+    400182: shafa 483
+    400184: shafa 484
+    400186: shafa 485
+    400188: shafa 486
+    400190: shafa 487
+    400192: shafa 488
+    400194: shafa 489
+    400196: shafa 490
+    400198: shafa 491
+    400200: shafa 492
+    400202: shafa 493
+    400204: shafa 494
+    400206: shafa 495
+    400208: shafa 496
+    400210: shafa 497
+    400212: shafa 498
+    400214: shafa 499
+    400216: shafa 500
+    400218: shafa 501
+    400220: shafa 502
+    400222: shafa 503
+    400224: shafa 504
+    400226: shafa 505
+    400228: shafa 506
+    400230: shafa 507
+    400232: shafa 508
+    400234: shafa 509
+    400236: shafa 510
+    400238: shafa 511
+    400240: shafa 512
+    400242: shafa 513
+    400244: shafa 514
+    400246: shafa 515
+    400248: shafa 516
+    400250: shafa 517
+    400252: shafa 518
+    400254: shafa 519
+    400256: shafa 520
+    400258: shafa 521
+    400260: shafa 522
+    400262: shafa 523
+    400264: shafa 524
+    400266: shafa 525
+    400268: shafa 526
+    400270: shafa 527
+    400272: shafa 528
+    400274: shafa 529
+    400276: shafa 530
+    400278: shafa 531
+    400280: shafa 532
+    400282: shafa 533
+    400284: shafa 534
+    400286: shafa 535
+    400288: shafa 536
+    400290: shafa 537
+    400292: shafa 538
+    400294: shafa 539
+    400296: shafa 540
+    400298: shafa 541
+    400300: shafa 542
+    400302: shafa 543
+    400304: shafa 544
+    400306: shafa 545
+    400308: shafa 546
+    400310: shafa 547
+    400312: shafa 548
+    400314: shafa 549
+    400316: shafa 550
+    400318: shafa 551
+    400320: shafa 552
+    400322: shafa 553
+    400324: shafa 554
+    400326: shafa 555
+    400328: shafa 556
+    400330: shafa 557
+    400332: shafa 558
+    400334: shafa 559
+    400336: shafa 560
+    400338: shafa 561
+    400340: shafa 562
+    400342: shafa 563
+    400344: shafa 564
+    400346: shafa 565
+    400348: shafa 566
+    400350: shafa 567
+    400352: shafa 568
+    400354: shafa 569
+    400356: shafa 570
+    400358: shafa 571
+    400360: shafa 572
+    400362: shafa 573
+    400364: shafa 574
+    400366: shafa 575
+    400368: shafa 576
+    400370: shafa 577
+    400372: shafa 578
+    400374: shafa 579
+    400376: shafa 580
+    400378: shafa 581
+    400380: shafa 582
+    400382: shafa 583
+    400384: shafa 584
+    400386: shafa 585
+    400388: shafa 586
+    400390: shafa 587
+    400392: shafa 588
+    400394: shafa 589
+    400396: shafa 590
+    400398: shafa 591
+    400400: shafa 592
+    400402: shafa 593
+    400404: shafa 594
+    400406: shafa 595
+    400408: shafa 596
+    400410: shafa 597
+    400412: shafa 598
+    400414: shafa 599
+    400416: shafa 600
+    400418: shafa 601
+    400420: shafa 602
+    400422: shafa 603
+    400424: shafa 604
+    400426: shafa 605
+    400428: shafa 606
+    400430: shafa 607
+    400432: shafa 608
+    400434: shafa 609
+    400436: shafa 610
+    400438: shafa 611
+    400440: shafa 612
+    400442: shafa 613
+    400444: shafa 614
+    400446: shafa 615
+    400448: shafa 616
+    400450: shafa 617
+    400452: shafa 618
+    400454: shafa 619
+    400456: shafa 620
+    400458: shafa 621
+    400460: shafa 622
+    400462: shafa 623
+    400464: shafa 624
+    400466: shafa 625
+    400468: shafa 626
+    400470: shafa 627
+    400472: shafa 628
+    400474: shafa 629
+    400476: shafa 630
+    400478: shafa 631
+    400480: shafa 632
+    400482: shafa 633
+    400484: shafa 634
+    400486: shafa 635
+    400488: shafa 636
+    400490: shafa 637
+    400492: shafa 638
+    400494: shafa 639
+    400496: shafa 640
+    400498: shafa 641
+    400500: shafa 642
+    400502: shafa 643
+    400504: shafa 644
+    400506: shafa 645
+    400508: shafa 646
+    400510: shafa 647
+    400512: shafa 648
+    400514: shafa 649
+    400516: shafa 650
+    400518: shafa 651
+    400520: shafa 652
+    400522: shafa 653
+    400524: shafa 654
+    400526: shafa 655
+    400528: shafa 656
+    400530: shafa 657
+    400532: shafa 658
+    400534: shafa 659
+    400536: shafa 660
+    400538: shafa 661
+    400540: shafa 662
+    400542: shafa 663
+    400544: shafa 664
+    400546: shafa 665
+    400548: shafa 666
+    400550: shafa 667
+    400552: shafa 668
+    400554: shafa 669
+    400556: shafa 670
+    400558: shafa 671
+    400560: shafa 672
+    400562: shafa 673
+    400564: shafa 674
+    400566: shafa 675
+    400568: shafa 676
+    400570: shafa 677
+    400572: shafa 678
+    400574: shafa 679
+    400576: shafa 680
+    400578: shafa 681
+    400580: shafa 682
+    400582: shafa 683
+    400584: shafa 684
+    400586: shafa 685
+    400588: shafa 686
+    400590: shafa 687
+    400592: shafa 688
+    400594: shafa 689
+    400596: shafa 690
+    400598: shafa 691
+    400600: shafa 692
+    400602: shafa 693
+    400604: shafa 694
+    400606: shafa 695
+    400608: shafa 696
+    400610: shafa 697
+    400612: shafa 698
+    400614: shafa 699
+    400616: shafa 704
+    400618: shafa 705
+    400620: shafa 706
+    400622: shafa 707
+    400624: shafa 708
+    400626: shafa 709
+    400628: shafa 710
+    400630: shafa 711
+    400632: shafa 712
+    400634: shafa 713
+    400636: shafa 714
+    400638: shafa 715
+    400640: shafa 716
+    400642: shafa 717
+    400644: shafa 718
+    400646: shafa 719
+    400648: shafa 720
+    400650: shafa 721
+    400652: shafa 722
+    400654: shafa 723
+    400656: shafa 724
+    400658: shafa 725
+    400660: shafa 726
+    400662: shafa 727
+    400664: shafa 728
+    400666: shafa 729
+    400668: shafa 730
+    400670: shafa 731
+    400672: shafa 732
+    400674: shafa 733
+    400676: shafa 734
+    400678: shafa 739
+    400680: shafa 745
+    400682: shafa 746
+    400684: shafa 747
+    400686: shafa 748
+    400688: shafa 749
+    400690: shafa 750
+    400692: shafa 751
+    400694: shafa 752
+    400696: shafa 753
+    400698: shafa 754
+    400700: shafa 755
+    400702: shafa 756
+    400704: shafa 757
+    400706: shafa 758
+    400708: shafa 759
+    400710: shafa 760
+    400712: shafa 761
+    400714: shafa 762
+    400716: shafa 763
+    400718: shafa 764
+    400720: shafa 765
+    400722: shafa 766
+    400724: shafa 767
+    400726: shafa 768
+    400728: shafa 769
+    400730: shafa 770
+    400732: shafa 771
+    400734: shafa 772
+    400736: shafa 773
+    400738: shafa 779
+    400740: shafa 785
+    400742: shafa 786
+    400744: shafa 787
+    400746: shafa 788
+    400748: shafa 789
+    400750: shafa 790
+    400752: shafa 791
+    400754: shafa 792
+    400756: shafa 793
+    400758: shafa 794
+    400760: shafa 795
+    400762: shafa 796
+    400764: shafa 797
+    400766: shafa 798
+    400768: shafa 799
+    400770: shafa 800
+    400772: shafa 801
+    400774: shafa 802
+    400776: shafa 803
+    400778: shafa 804
+    400780: shafa 805
+    400782: shafa 806
+    400784: shafa 807
+    400786: shafa 808
+    400788: shafa 809
+    400790: shafa 810
+    400792: shafa 811
+    400794: shafa 812
+    400796: shafa 813
+    400798: shafa 819
+    400800: shafa 826
+    400802: shafa 827
+    400804: shafa 828
+    400806: shafa 829
+    400808: shafa 830
+    400810: shafa 831
+    400812: shafa 832
+    400814: shafa 833
+    400816: shafa 834
+    400818: shafa 835
+    400820: shafa 836
+    400822: shafa 837
+    400824: shafa 838
+    400826: shafa 839
+    400828: shafa 840
+    400830: shafa 841
+    400832: shafa 842
+    400834: shafa 843
+    400836: shafa 844
+    400838: shafa 845
+    400840: shafa 846
+    400842: shafa 847
+    400844: shafa 848
+    400846: shafa 849
+    400848: shafa 850
+    400850: shafa 851
+    400852: shafa 852
+    400854: waiqiang
+    400856: wuding
+    400858: pingmu
+    400860: waiqiang_floor
+    2300000: C_C_shafa_vray_2K009
+    2300002: C_C_shafa_vray_2K010
+    2300004: C_C_shafa_vray_2K011
+    2300006: C_C_shafa_vray_2K012
+    2300008: C_C_shafa_vray_2K013
+    2300010: C_C_shafa_vray_2K014
+    2300012: C_C_shafa_vray_2K015
+    2300014: C_C_shafa_vray_2K016
+    2300016: C_C_shafa_vray_2K017
+    2300018: C_C_shafa_vray_2K018
+    2300020: C_C_shafa_vray_2K019
+    2300022: ceqiang
+    2300024: floor
+    2300026: houqiang
+    2300028: luci
+    2300030: shafa 419
+    2300032: shafa 420
+    2300034: shafa 421
+    2300036: shafa 422
+    2300038: shafa 423
+    2300040: shafa 424
+    2300042: shafa 425
+    2300044: shafa 426
+    2300046: shafa 427
+    2300048: shafa 428
+    2300050: shafa 429
+    2300052: shafa 430
+    2300054: shafa 431
+    2300056: shafa 432
+    2300058: shafa 433
+    2300060: shafa 434
+    2300062: shafa 435
+    2300064: shafa 436
+    2300066: shafa 437
+    2300068: shafa 438
+    2300070: shafa 439
+    2300072: shafa 440
+    2300074: shafa 441
+    2300076: shafa 442
+    2300078: shafa 443
+    2300080: shafa 444
+    2300082: shafa 445
+    2300084: shafa 446
+    2300086: shafa 447
+    2300088: shafa 448
+    2300090: shafa 449
+    2300092: shafa 450
+    2300094: shafa 451
+    2300096: shafa 452
+    2300098: shafa 453
+    2300100: shafa 454
+    2300102: shafa 455
+    2300104: shafa 456
+    2300106: shafa 457
+    2300108: shafa 458
+    2300110: shafa 459
+    2300112: shafa 460
+    2300114: shafa 461
+    2300116: shafa 462
+    2300118: shafa 463
+    2300120: shafa 464
+    2300122: shafa 465
+    2300124: shafa 466
+    2300126: shafa 467
+    2300128: shafa 468
+    2300130: shafa 469
+    2300132: shafa 470
+    2300134: shafa 471
+    2300136: shafa 472
+    2300138: shafa 473
+    2300140: shafa 474
+    2300142: shafa 475
+    2300144: shafa 476
+    2300146: shafa 477
+    2300148: shafa 478
+    2300150: shafa 479
+    2300152: shafa 480
+    2300154: shafa 481
+    2300156: shafa 482
+    2300158: shafa 483
+    2300160: shafa 484
+    2300162: shafa 485
+    2300164: shafa 486
+    2300166: shafa 487
+    2300168: shafa 488
+    2300170: shafa 489
+    2300172: shafa 490
+    2300174: shafa 491
+    2300176: shafa 492
+    2300178: shafa 493
+    2300180: shafa 494
+    2300182: shafa 495
+    2300184: shafa 496
+    2300186: shafa 497
+    2300188: shafa 498
+    2300190: shafa 499
+    2300192: shafa 500
+    2300194: shafa 501
+    2300196: shafa 502
+    2300198: shafa 503
+    2300200: shafa 504
+    2300202: shafa 505
+    2300204: shafa 506
+    2300206: shafa 507
+    2300208: shafa 508
+    2300210: shafa 509
+    2300212: shafa 510
+    2300214: shafa 511
+    2300216: shafa 512
+    2300218: shafa 513
+    2300220: shafa 514
+    2300222: shafa 515
+    2300224: shafa 516
+    2300226: shafa 517
+    2300228: shafa 518
+    2300230: shafa 519
+    2300232: shafa 520
+    2300234: shafa 521
+    2300236: shafa 522
+    2300238: shafa 523
+    2300240: shafa 524
+    2300242: shafa 525
+    2300244: shafa 526
+    2300246: shafa 527
+    2300248: shafa 528
+    2300250: shafa 529
+    2300252: shafa 530
+    2300254: shafa 531
+    2300256: shafa 532
+    2300258: shafa 533
+    2300260: shafa 534
+    2300262: shafa 535
+    2300264: shafa 536
+    2300266: shafa 537
+    2300268: shafa 538
+    2300270: shafa 539
+    2300272: shafa 540
+    2300274: shafa 541
+    2300276: shafa 542
+    2300278: shafa 543
+    2300280: shafa 544
+    2300282: shafa 545
+    2300284: shafa 546
+    2300286: shafa 547
+    2300288: shafa 548
+    2300290: shafa 549
+    2300292: shafa 550
+    2300294: shafa 551
+    2300296: shafa 552
+    2300298: shafa 553
+    2300300: shafa 554
+    2300302: shafa 555
+    2300304: shafa 556
+    2300306: shafa 557
+    2300308: shafa 558
+    2300310: shafa 559
+    2300312: shafa 560
+    2300314: shafa 561
+    2300316: shafa 562
+    2300318: shafa 563
+    2300320: shafa 564
+    2300322: shafa 565
+    2300324: shafa 566
+    2300326: shafa 567
+    2300328: shafa 568
+    2300330: shafa 569
+    2300332: shafa 570
+    2300334: shafa 571
+    2300336: shafa 572
+    2300338: shafa 573
+    2300340: shafa 574
+    2300342: shafa 575
+    2300344: shafa 576
+    2300346: shafa 577
+    2300348: shafa 578
+    2300350: shafa 579
+    2300352: shafa 580
+    2300354: shafa 581
+    2300356: shafa 582
+    2300358: shafa 583
+    2300360: shafa 584
+    2300362: shafa 585
+    2300364: shafa 586
+    2300366: shafa 587
+    2300368: shafa 588
+    2300370: shafa 589
+    2300372: shafa 590
+    2300374: shafa 591
+    2300376: shafa 592
+    2300378: shafa 593
+    2300380: shafa 594
+    2300382: shafa 595
+    2300384: shafa 596
+    2300386: shafa 597
+    2300388: shafa 598
+    2300390: shafa 599
+    2300392: shafa 600
+    2300394: shafa 601
+    2300396: shafa 602
+    2300398: shafa 603
+    2300400: shafa 604
+    2300402: shafa 605
+    2300404: shafa 606
+    2300406: shafa 607
+    2300408: shafa 608
+    2300410: shafa 609
+    2300412: shafa 610
+    2300414: shafa 611
+    2300416: shafa 612
+    2300418: shafa 613
+    2300420: shafa 614
+    2300422: shafa 615
+    2300424: shafa 616
+    2300426: shafa 617
+    2300428: shafa 618
+    2300430: shafa 619
+    2300432: shafa 620
+    2300434: shafa 621
+    2300436: shafa 622
+    2300438: shafa 623
+    2300440: shafa 624
+    2300442: shafa 625
+    2300444: shafa 626
+    2300446: shafa 627
+    2300448: shafa 628
+    2300450: shafa 629
+    2300452: shafa 630
+    2300454: shafa 631
+    2300456: shafa 632
+    2300458: shafa 633
+    2300460: shafa 634
+    2300462: shafa 635
+    2300464: shafa 636
+    2300466: shafa 637
+    2300468: shafa 638
+    2300470: shafa 639
+    2300472: shafa 640
+    2300474: shafa 641
+    2300476: shafa 642
+    2300478: shafa 643
+    2300480: shafa 644
+    2300482: shafa 645
+    2300484: shafa 646
+    2300486: shafa 647
+    2300488: shafa 648
+    2300490: shafa 649
+    2300492: shafa 650
+    2300494: shafa 651
+    2300496: shafa 652
+    2300498: shafa 653
+    2300500: shafa 654
+    2300502: shafa 655
+    2300504: shafa 656
+    2300506: shafa 657
+    2300508: shafa 658
+    2300510: shafa 659
+    2300512: shafa 660
+    2300514: shafa 661
+    2300516: shafa 662
+    2300518: shafa 663
+    2300520: shafa 664
+    2300522: shafa 665
+    2300524: shafa 666
+    2300526: shafa 667
+    2300528: shafa 668
+    2300530: shafa 669
+    2300532: shafa 670
+    2300534: shafa 671
+    2300536: shafa 672
+    2300538: shafa 673
+    2300540: shafa 674
+    2300542: shafa 675
+    2300544: shafa 676
+    2300546: shafa 677
+    2300548: shafa 678
+    2300550: shafa 679
+    2300552: shafa 680
+    2300554: shafa 681
+    2300556: shafa 682
+    2300558: shafa 683
+    2300560: shafa 684
+    2300562: shafa 685
+    2300564: shafa 686
+    2300566: shafa 687
+    2300568: shafa 688
+    2300570: shafa 689
+    2300572: shafa 690
+    2300574: shafa 691
+    2300576: shafa 692
+    2300578: shafa 693
+    2300580: shafa 694
+    2300582: shafa 695
+    2300584: shafa 696
+    2300586: shafa 697
+    2300588: shafa 698
+    2300590: shafa 699
+    2300592: shafa 704
+    2300594: shafa 705
+    2300596: shafa 706
+    2300598: shafa 707
+    2300600: shafa 708
+    2300602: shafa 709
+    2300604: shafa 710
+    2300606: shafa 711
+    2300608: shafa 712
+    2300610: shafa 713
+    2300612: shafa 714
+    2300614: shafa 715
+    2300616: shafa 716
+    2300618: shafa 717
+    2300620: shafa 718
+    2300622: shafa 719
+    2300624: shafa 720
+    2300626: shafa 721
+    2300628: shafa 722
+    2300630: shafa 723
+    2300632: shafa 724
+    2300634: shafa 725
+    2300636: shafa 726
+    2300638: shafa 727
+    2300640: shafa 728
+    2300642: shafa 729
+    2300644: shafa 730
+    2300646: shafa 731
+    2300648: shafa 732
+    2300650: shafa 733
+    2300652: shafa 734
+    2300654: shafa 739
+    2300656: shafa 745
+    2300658: shafa 746
+    2300660: shafa 747
+    2300662: shafa 748
+    2300664: shafa 749
+    2300666: shafa 750
+    2300668: shafa 751
+    2300670: shafa 752
+    2300672: shafa 753
+    2300674: shafa 754
+    2300676: shafa 755
+    2300678: shafa 756
+    2300680: shafa 757
+    2300682: shafa 758
+    2300684: shafa 759
+    2300686: shafa 760
+    2300688: shafa 761
+    2300690: shafa 762
+    2300692: shafa 763
+    2300694: shafa 764
+    2300696: shafa 765
+    2300698: shafa 766
+    2300700: shafa 767
+    2300702: shafa 768
+    2300704: shafa 769
+    2300706: shafa 770
+    2300708: shafa 771
+    2300710: shafa 772
+    2300712: shafa 773
+    2300714: shafa 779
+    2300716: shafa 785
+    2300718: shafa 786
+    2300720: shafa 787
+    2300722: shafa 788
+    2300724: shafa 789
+    2300726: shafa 790
+    2300728: shafa 791
+    2300730: shafa 792
+    2300732: shafa 793
+    2300734: shafa 794
+    2300736: shafa 795
+    2300738: shafa 796
+    2300740: shafa 797
+    2300742: shafa 798
+    2300744: shafa 799
+    2300746: shafa 800
+    2300748: shafa 801
+    2300750: shafa 802
+    2300752: shafa 803
+    2300754: shafa 804
+    2300756: shafa 805
+    2300758: shafa 806
+    2300760: shafa 807
+    2300762: shafa 808
+    2300764: shafa 809
+    2300766: shafa 810
+    2300768: shafa 811
+    2300770: shafa 812
+    2300772: shafa 813
+    2300774: shafa 819
+    2300776: shafa 826
+    2300778: shafa 827
+    2300780: shafa 828
+    2300782: shafa 829
+    2300784: shafa 830
+    2300786: shafa 831
+    2300788: shafa 832
+    2300790: shafa 833
+    2300792: shafa 834
+    2300794: shafa 835
+    2300796: shafa 836
+    2300798: shafa 837
+    2300800: shafa 838
+    2300802: shafa 839
+    2300804: shafa 840
+    2300806: shafa 841
+    2300808: shafa 842
+    2300810: shafa 843
+    2300812: shafa 844
+    2300814: shafa 845
+    2300816: shafa 846
+    2300818: shafa 847
+    2300820: shafa 848
+    2300822: shafa 849
+    2300824: shafa 850
+    2300826: shafa 851
+    2300828: shafa 852
+    2300830: waiqiang
+    2300832: wuding
+    2300834: pingmu
+    2300836: waiqiang_floor
+    3300000: C_C_shafa_vray_2K009
+    3300002: C_C_shafa_vray_2K010
+    3300004: C_C_shafa_vray_2K011
+    3300006: C_C_shafa_vray_2K012
+    3300008: C_C_shafa_vray_2K013
+    3300010: C_C_shafa_vray_2K014
+    3300012: C_C_shafa_vray_2K015
+    3300014: C_C_shafa_vray_2K016
+    3300016: C_C_shafa_vray_2K017
+    3300018: C_C_shafa_vray_2K018
+    3300020: C_C_shafa_vray_2K019
+    3300022: ceqiang
+    3300024: floor
+    3300026: houqiang
+    3300028: luci
+    3300030: shafa 419
+    3300032: shafa 420
+    3300034: shafa 421
+    3300036: shafa 422
+    3300038: shafa 423
+    3300040: shafa 424
+    3300042: shafa 425
+    3300044: shafa 426
+    3300046: shafa 427
+    3300048: shafa 428
+    3300050: shafa 429
+    3300052: shafa 430
+    3300054: shafa 431
+    3300056: shafa 432
+    3300058: shafa 433
+    3300060: shafa 434
+    3300062: shafa 435
+    3300064: shafa 436
+    3300066: shafa 437
+    3300068: shafa 438
+    3300070: shafa 439
+    3300072: shafa 440
+    3300074: shafa 441
+    3300076: shafa 442
+    3300078: shafa 443
+    3300080: shafa 444
+    3300082: shafa 445
+    3300084: shafa 446
+    3300086: shafa 447
+    3300088: shafa 448
+    3300090: shafa 449
+    3300092: shafa 450
+    3300094: shafa 451
+    3300096: shafa 452
+    3300098: shafa 453
+    3300100: shafa 454
+    3300102: shafa 455
+    3300104: shafa 456
+    3300106: shafa 457
+    3300108: shafa 458
+    3300110: shafa 459
+    3300112: shafa 460
+    3300114: shafa 461
+    3300116: shafa 462
+    3300118: shafa 463
+    3300120: shafa 464
+    3300122: shafa 465
+    3300124: shafa 466
+    3300126: shafa 467
+    3300128: shafa 468
+    3300130: shafa 469
+    3300132: shafa 470
+    3300134: shafa 471
+    3300136: shafa 472
+    3300138: shafa 473
+    3300140: shafa 474
+    3300142: shafa 475
+    3300144: shafa 476
+    3300146: shafa 477
+    3300148: shafa 478
+    3300150: shafa 479
+    3300152: shafa 480
+    3300154: shafa 481
+    3300156: shafa 482
+    3300158: shafa 483
+    3300160: shafa 484
+    3300162: shafa 485
+    3300164: shafa 486
+    3300166: shafa 487
+    3300168: shafa 488
+    3300170: shafa 489
+    3300172: shafa 490
+    3300174: shafa 491
+    3300176: shafa 492
+    3300178: shafa 493
+    3300180: shafa 494
+    3300182: shafa 495
+    3300184: shafa 496
+    3300186: shafa 497
+    3300188: shafa 498
+    3300190: shafa 499
+    3300192: shafa 500
+    3300194: shafa 501
+    3300196: shafa 502
+    3300198: shafa 503
+    3300200: shafa 504
+    3300202: shafa 505
+    3300204: shafa 506
+    3300206: shafa 507
+    3300208: shafa 508
+    3300210: shafa 509
+    3300212: shafa 510
+    3300214: shafa 511
+    3300216: shafa 512
+    3300218: shafa 513
+    3300220: shafa 514
+    3300222: shafa 515
+    3300224: shafa 516
+    3300226: shafa 517
+    3300228: shafa 518
+    3300230: shafa 519
+    3300232: shafa 520
+    3300234: shafa 521
+    3300236: shafa 522
+    3300238: shafa 523
+    3300240: shafa 524
+    3300242: shafa 525
+    3300244: shafa 526
+    3300246: shafa 527
+    3300248: shafa 528
+    3300250: shafa 529
+    3300252: shafa 530
+    3300254: shafa 531
+    3300256: shafa 532
+    3300258: shafa 533
+    3300260: shafa 534
+    3300262: shafa 535
+    3300264: shafa 536
+    3300266: shafa 537
+    3300268: shafa 538
+    3300270: shafa 539
+    3300272: shafa 540
+    3300274: shafa 541
+    3300276: shafa 542
+    3300278: shafa 543
+    3300280: shafa 544
+    3300282: shafa 545
+    3300284: shafa 546
+    3300286: shafa 547
+    3300288: shafa 548
+    3300290: shafa 549
+    3300292: shafa 550
+    3300294: shafa 551
+    3300296: shafa 552
+    3300298: shafa 553
+    3300300: shafa 554
+    3300302: shafa 555
+    3300304: shafa 556
+    3300306: shafa 557
+    3300308: shafa 558
+    3300310: shafa 559
+    3300312: shafa 560
+    3300314: shafa 561
+    3300316: shafa 562
+    3300318: shafa 563
+    3300320: shafa 564
+    3300322: shafa 565
+    3300324: shafa 566
+    3300326: shafa 567
+    3300328: shafa 568
+    3300330: shafa 569
+    3300332: shafa 570
+    3300334: shafa 571
+    3300336: shafa 572
+    3300338: shafa 573
+    3300340: shafa 574
+    3300342: shafa 575
+    3300344: shafa 576
+    3300346: shafa 577
+    3300348: shafa 578
+    3300350: shafa 579
+    3300352: shafa 580
+    3300354: shafa 581
+    3300356: shafa 582
+    3300358: shafa 583
+    3300360: shafa 584
+    3300362: shafa 585
+    3300364: shafa 586
+    3300366: shafa 587
+    3300368: shafa 588
+    3300370: shafa 589
+    3300372: shafa 590
+    3300374: shafa 591
+    3300376: shafa 592
+    3300378: shafa 593
+    3300380: shafa 594
+    3300382: shafa 595
+    3300384: shafa 596
+    3300386: shafa 597
+    3300388: shafa 598
+    3300390: shafa 599
+    3300392: shafa 600
+    3300394: shafa 601
+    3300396: shafa 602
+    3300398: shafa 603
+    3300400: shafa 604
+    3300402: shafa 605
+    3300404: shafa 606
+    3300406: shafa 607
+    3300408: shafa 608
+    3300410: shafa 609
+    3300412: shafa 610
+    3300414: shafa 611
+    3300416: shafa 612
+    3300418: shafa 613
+    3300420: shafa 614
+    3300422: shafa 615
+    3300424: shafa 616
+    3300426: shafa 617
+    3300428: shafa 618
+    3300430: shafa 619
+    3300432: shafa 620
+    3300434: shafa 621
+    3300436: shafa 622
+    3300438: shafa 623
+    3300440: shafa 624
+    3300442: shafa 625
+    3300444: shafa 626
+    3300446: shafa 627
+    3300448: shafa 628
+    3300450: shafa 629
+    3300452: shafa 630
+    3300454: shafa 631
+    3300456: shafa 632
+    3300458: shafa 633
+    3300460: shafa 634
+    3300462: shafa 635
+    3300464: shafa 636
+    3300466: shafa 637
+    3300468: shafa 638
+    3300470: shafa 639
+    3300472: shafa 640
+    3300474: shafa 641
+    3300476: shafa 642
+    3300478: shafa 643
+    3300480: shafa 644
+    3300482: shafa 645
+    3300484: shafa 646
+    3300486: shafa 647
+    3300488: shafa 648
+    3300490: shafa 649
+    3300492: shafa 650
+    3300494: shafa 651
+    3300496: shafa 652
+    3300498: shafa 653
+    3300500: shafa 654
+    3300502: shafa 655
+    3300504: shafa 656
+    3300506: shafa 657
+    3300508: shafa 658
+    3300510: shafa 659
+    3300512: shafa 660
+    3300514: shafa 661
+    3300516: shafa 662
+    3300518: shafa 663
+    3300520: shafa 664
+    3300522: shafa 665
+    3300524: shafa 666
+    3300526: shafa 667
+    3300528: shafa 668
+    3300530: shafa 669
+    3300532: shafa 670
+    3300534: shafa 671
+    3300536: shafa 672
+    3300538: shafa 673
+    3300540: shafa 674
+    3300542: shafa 675
+    3300544: shafa 676
+    3300546: shafa 677
+    3300548: shafa 678
+    3300550: shafa 679
+    3300552: shafa 680
+    3300554: shafa 681
+    3300556: shafa 682
+    3300558: shafa 683
+    3300560: shafa 684
+    3300562: shafa 685
+    3300564: shafa 686
+    3300566: shafa 687
+    3300568: shafa 688
+    3300570: shafa 689
+    3300572: shafa 690
+    3300574: shafa 691
+    3300576: shafa 692
+    3300578: shafa 693
+    3300580: shafa 694
+    3300582: shafa 695
+    3300584: shafa 696
+    3300586: shafa 697
+    3300588: shafa 698
+    3300590: shafa 699
+    3300592: shafa 704
+    3300594: shafa 705
+    3300596: shafa 706
+    3300598: shafa 707
+    3300600: shafa 708
+    3300602: shafa 709
+    3300604: shafa 710
+    3300606: shafa 711
+    3300608: shafa 712
+    3300610: shafa 713
+    3300612: shafa 714
+    3300614: shafa 715
+    3300616: shafa 716
+    3300618: shafa 717
+    3300620: shafa 718
+    3300622: shafa 719
+    3300624: shafa 720
+    3300626: shafa 721
+    3300628: shafa 722
+    3300630: shafa 723
+    3300632: shafa 724
+    3300634: shafa 725
+    3300636: shafa 726
+    3300638: shafa 727
+    3300640: shafa 728
+    3300642: shafa 729
+    3300644: shafa 730
+    3300646: shafa 731
+    3300648: shafa 732
+    3300650: shafa 733
+    3300652: shafa 734
+    3300654: shafa 739
+    3300656: shafa 745
+    3300658: shafa 746
+    3300660: shafa 747
+    3300662: shafa 748
+    3300664: shafa 749
+    3300666: shafa 750
+    3300668: shafa 751
+    3300670: shafa 752
+    3300672: shafa 753
+    3300674: shafa 754
+    3300676: shafa 755
+    3300678: shafa 756
+    3300680: shafa 757
+    3300682: shafa 758
+    3300684: shafa 759
+    3300686: shafa 760
+    3300688: shafa 761
+    3300690: shafa 762
+    3300692: shafa 763
+    3300694: shafa 764
+    3300696: shafa 765
+    3300698: shafa 766
+    3300700: shafa 767
+    3300702: shafa 768
+    3300704: shafa 769
+    3300706: shafa 770
+    3300708: shafa 771
+    3300710: shafa 772
+    3300712: shafa 773
+    3300714: shafa 779
+    3300716: shafa 785
+    3300718: shafa 786
+    3300720: shafa 787
+    3300722: shafa 788
+    3300724: shafa 789
+    3300726: shafa 790
+    3300728: shafa 791
+    3300730: shafa 792
+    3300732: shafa 793
+    3300734: shafa 794
+    3300736: shafa 795
+    3300738: shafa 796
+    3300740: shafa 797
+    3300742: shafa 798
+    3300744: shafa 799
+    3300746: shafa 800
+    3300748: shafa 801
+    3300750: shafa 802
+    3300752: shafa 803
+    3300754: shafa 804
+    3300756: shafa 805
+    3300758: shafa 806
+    3300760: shafa 807
+    3300762: shafa 808
+    3300764: shafa 809
+    3300766: shafa 810
+    3300768: shafa 811
+    3300770: shafa 812
+    3300772: shafa 813
+    3300774: shafa 819
+    3300776: shafa 826
+    3300778: shafa 827
+    3300780: shafa 828
+    3300782: shafa 829
+    3300784: shafa 830
+    3300786: shafa 831
+    3300788: shafa 832
+    3300790: shafa 833
+    3300792: shafa 834
+    3300794: shafa 835
+    3300796: shafa 836
+    3300798: shafa 837
+    3300800: shafa 838
+    3300802: shafa 839
+    3300804: shafa 840
+    3300806: shafa 841
+    3300808: shafa 842
+    3300810: shafa 843
+    3300812: shafa 844
+    3300814: shafa 845
+    3300816: shafa 846
+    3300818: shafa 847
+    3300820: shafa 848
+    3300822: shafa 849
+    3300824: shafa 850
+    3300826: shafa 851
+    3300828: shafa 852
+    3300830: waiqiang
+    3300832: wuding
+    3300834: pingmu
+    3300836: waiqiang_floor
+    4300000: luci
+    4300002: floor
+    4300004: wuding
+    4300006: shafa 422
+    4300008: shafa 442
+    4300010: shafa 443
+    4300012: shafa 444
+    4300014: shafa 445
+    4300016: shafa 446
+    4300018: shafa 447
+    4300020: shafa 448
+    4300022: shafa 449
+    4300024: shafa 450
+    4300026: shafa 451
+    4300028: shafa 441
+    4300030: shafa 440
+    4300032: shafa 439
+    4300034: shafa 458
+    4300036: shafa 438
+    4300038: shafa 426
+    4300040: shafa 425
+    4300042: shafa 424
+    4300044: shafa 423
+    4300046: C_C_shafa_vray_2K009
+    4300048: shafa 434
+    4300050: shafa 437
+    4300052: shafa 436
+    4300054: shafa 435
+    4300056: shafa 433
+    4300058: shafa 432
+    4300060: shafa 431
+    4300062: shafa 430
+    4300064: shafa 429
+    4300066: shafa 419
+    4300068: shafa 428
+    4300070: shafa 427
+    4300072: shafa 453
+    4300074: shafa 454
+    4300076: shafa 455
+    4300078: shafa 456
+    4300080: shafa 457
+    4300082: shafa 452
+    4300084: shafa 421
+    4300086: shafa 420
+    4300088: shafa 459
+    4300090: shafa 460
+    4300092: shafa 461
+    4300094: shafa 462
+    4300096: shafa 463
+    4300098: shafa 464
+    4300100: shafa 465
+    4300102: shafa 466
+    4300104: shafa 467
+    4300106: shafa 468
+    4300108: shafa 469
+    4300110: shafa 470
+    4300112: shafa 471
+    4300114: shafa 472
+    4300116: shafa 473
+    4300118: shafa 474
+    4300120: shafa 475
+    4300122: shafa 476
+    4300124: shafa 477
+    4300126: shafa 478
+    4300128: C_C_shafa_vray_2K010
+    4300130: shafa 479
+    4300132: shafa 480
+    4300134: shafa 481
+    4300136: shafa 482
+    4300138: shafa 483
+    4300140: shafa 484
+    4300142: shafa 485
+    4300144: shafa 486
+    4300146: shafa 487
+    4300148: shafa 488
+    4300150: shafa 489
+    4300152: shafa 490
+    4300154: shafa 491
+    4300156: shafa 492
+    4300158: shafa 493
+    4300160: shafa 494
+    4300162: shafa 495
+    4300164: shafa 496
+    4300166: shafa 497
+    4300168: shafa 498
+    4300170: shafa 499
+    4300172: shafa 500
+    4300174: shafa 501
+    4300176: shafa 502
+    4300178: shafa 503
+    4300180: shafa 504
+    4300182: shafa 505
+    4300184: shafa 506
+    4300186: shafa 507
+    4300188: shafa 508
+    4300190: shafa 509
+    4300192: shafa 510
+    4300194: shafa 511
+    4300196: shafa 512
+    4300198: shafa 513
+    4300200: shafa 514
+    4300202: shafa 515
+    4300204: shafa 516
+    4300206: shafa 517
+    4300208: shafa 518
+    4300210: C_C_shafa_vray_2K011
+    4300212: shafa 519
+    4300214: shafa 520
+    4300216: shafa 521
+    4300218: shafa 522
+    4300220: shafa 523
+    4300222: shafa 524
+    4300224: shafa 525
+    4300226: shafa 526
+    4300228: shafa 527
+    4300230: shafa 528
+    4300232: shafa 529
+    4300234: shafa 530
+    4300236: shafa 531
+    4300238: shafa 532
+    4300240: shafa 533
+    4300242: shafa 534
+    4300244: shafa 535
+    4300246: shafa 536
+    4300248: shafa 537
+    4300250: shafa 538
+    4300252: shafa 539
+    4300254: shafa 540
+    4300256: shafa 541
+    4300258: shafa 542
+    4300260: shafa 543
+    4300262: shafa 544
+    4300264: shafa 545
+    4300266: shafa 546
+    4300268: shafa 547
+    4300270: shafa 548
+    4300272: shafa 549
+    4300274: shafa 550
+    4300276: shafa 551
+    4300278: shafa 552
+    4300280: shafa 553
+    4300282: shafa 554
+    4300284: shafa 555
+    4300286: shafa 556
+    4300288: shafa 557
+    4300290: shafa 558
+    4300292: C_C_shafa_vray_2K012
+    4300294: shafa 559
+    4300296: shafa 560
+    4300298: shafa 561
+    4300300: shafa 562
+    4300302: shafa 563
+    4300304: shafa 564
+    4300306: shafa 565
+    4300308: shafa 566
+    4300310: shafa 567
+    4300312: shafa 568
+    4300314: shafa 569
+    4300316: shafa 570
+    4300318: shafa 571
+    4300320: shafa 572
+    4300322: shafa 573
+    4300324: shafa 574
+    4300326: shafa 575
+    4300328: shafa 576
+    4300330: shafa 577
+    4300332: shafa 578
+    4300334: shafa 579
+    4300336: shafa 580
+    4300338: shafa 581
+    4300340: shafa 582
+    4300342: shafa 583
+    4300344: shafa 584
+    4300346: shafa 585
+    4300348: shafa 586
+    4300350: shafa 587
+    4300352: shafa 588
+    4300354: shafa 589
+    4300356: shafa 590
+    4300358: shafa 591
+    4300360: shafa 592
+    4300362: shafa 593
+    4300364: shafa 594
+    4300366: shafa 595
+    4300368: shafa 596
+    4300370: shafa 597
+    4300372: shafa 598
+    4300374: C_C_shafa_vray_2K013
+    4300376: shafa 599
+    4300378: shafa 600
+    4300380: shafa 601
+    4300382: shafa 602
+    4300384: shafa 603
+    4300386: shafa 604
+    4300388: shafa 605
+    4300390: shafa 606
+    4300392: shafa 607
+    4300394: shafa 608
+    4300396: shafa 609
+    4300398: shafa 610
+    4300400: shafa 611
+    4300402: shafa 612
+    4300404: shafa 613
+    4300406: shafa 614
+    4300408: shafa 615
+    4300410: shafa 616
+    4300412: shafa 617
+    4300414: shafa 618
+    4300416: shafa 619
+    4300418: shafa 620
+    4300420: shafa 621
+    4300422: shafa 622
+    4300424: shafa 623
+    4300426: shafa 624
+    4300428: shafa 625
+    4300430: shafa 626
+    4300432: shafa 627
+    4300434: shafa 628
+    4300436: shafa 629
+    4300438: shafa 630
+    4300440: shafa 631
+    4300442: shafa 632
+    4300444: shafa 633
+    4300446: shafa 634
+    4300448: shafa 635
+    4300450: shafa 636
+    4300452: shafa 637
+    4300454: shafa 638
+    4300456: C_C_shafa_vray_2K014
+    4300458: shafa 639
+    4300460: shafa 640
+    4300462: shafa 641
+    4300464: shafa 642
+    4300466: shafa 643
+    4300468: shafa 644
+    4300470: shafa 645
+    4300472: shafa 646
+    4300474: shafa 647
+    4300476: shafa 648
+    4300478: shafa 649
+    4300480: shafa 650
+    4300482: shafa 651
+    4300484: shafa 652
+    4300486: shafa 653
+    4300488: shafa 654
+    4300490: shafa 655
+    4300492: shafa 656
+    4300494: shafa 657
+    4300496: shafa 658
+    4300498: shafa 659
+    4300500: shafa 660
+    4300502: shafa 661
+    4300504: shafa 662
+    4300506: shafa 663
+    4300508: shafa 664
+    4300510: shafa 665
+    4300512: shafa 666
+    4300514: shafa 667
+    4300516: shafa 668
+    4300518: shafa 669
+    4300520: shafa 670
+    4300522: shafa 671
+    4300524: shafa 672
+    4300526: shafa 673
+    4300528: shafa 674
+    4300530: shafa 675
+    4300532: shafa 676
+    4300534: shafa 677
+    4300536: shafa 678
+    4300538: C_C_shafa_vray_2K015
+    4300540: shafa 679
+    4300542: shafa 680
+    4300544: shafa 681
+    4300546: shafa 682
+    4300548: shafa 683
+    4300550: shafa 684
+    4300552: shafa 685
+    4300554: shafa 686
+    4300556: shafa 687
+    4300558: shafa 688
+    4300560: shafa 689
+    4300562: shafa 690
+    4300564: shafa 691
+    4300566: shafa 692
+    4300568: shafa 693
+    4300570: shafa 694
+    4300572: shafa 695
+    4300574: shafa 696
+    4300576: shafa 697
+    4300578: shafa 698
+    4300580: shafa 699
+    4300582: shafa 704
+    4300584: shafa 705
+    4300586: shafa 706
+    4300588: shafa 707
+    4300590: shafa 708
+    4300592: shafa 709
+    4300594: shafa 710
+    4300596: shafa 711
+    4300598: shafa 712
+    4300600: shafa 713
+    4300602: shafa 714
+    4300604: shafa 715
+    4300606: shafa 716
+    4300608: shafa 717
+    4300610: shafa 718
+    4300612: C_C_shafa_vray_2K016
+    4300614: shafa 719
+    4300616: shafa 720
+    4300618: shafa 721
+    4300620: shafa 722
+    4300622: shafa 723
+    4300624: shafa 724
+    4300626: shafa 725
+    4300628: shafa 726
+    4300630: shafa 727
+    4300632: shafa 728
+    4300634: shafa 729
+    4300636: shafa 730
+    4300638: shafa 731
+    4300640: shafa 732
+    4300642: shafa 733
+    4300644: shafa 734
+    4300646: shafa 739
+    4300648: shafa 745
+    4300650: shafa 746
+    4300652: shafa 747
+    4300654: shafa 748
+    4300656: shafa 749
+    4300658: shafa 750
+    4300660: shafa 751
+    4300662: shafa 752
+    4300664: shafa 753
+    4300666: shafa 754
+    4300668: shafa 755
+    4300670: shafa 756
+    4300672: shafa 757
+    4300674: shafa 758
+    4300676: C_C_shafa_vray_2K017
+    4300678: shafa 759
+    4300680: shafa 760
+    4300682: shafa 761
+    4300684: shafa 762
+    4300686: shafa 763
+    4300688: shafa 764
+    4300690: shafa 765
+    4300692: shafa 766
+    4300694: shafa 767
+    4300696: shafa 768
+    4300698: shafa 769
+    4300700: shafa 770
+    4300702: shafa 771
+    4300704: shafa 772
+    4300706: shafa 773
+    4300708: shafa 779
+    4300710: shafa 785
+    4300712: shafa 786
+    4300714: shafa 787
+    4300716: shafa 788
+    4300718: shafa 789
+    4300720: shafa 790
+    4300722: shafa 791
+    4300724: shafa 792
+    4300726: shafa 793
+    4300728: shafa 794
+    4300730: shafa 795
+    4300732: shafa 796
+    4300734: shafa 797
+    4300736: shafa 798
+    4300738: C_C_shafa_vray_2K018
+    4300740: shafa 799
+    4300742: shafa 800
+    4300744: shafa 801
+    4300746: shafa 802
+    4300748: shafa 803
+    4300750: shafa 804
+    4300752: shafa 805
+    4300754: shafa 806
+    4300756: shafa 807
+    4300758: shafa 808
+    4300760: shafa 809
+    4300762: shafa 810
+    4300764: shafa 811
+    4300766: shafa 812
+    4300768: shafa 813
+    4300770: shafa 819
+    4300772: shafa 826
+    4300774: shafa 827
+    4300776: shafa 828
+    4300778: shafa 829
+    4300780: shafa 830
+    4300782: shafa 831
+    4300784: shafa 832
+    4300786: shafa 833
+    4300788: shafa 834
+    4300790: shafa 835
+    4300792: shafa 836
+    4300794: shafa 837
+    4300796: shafa 838
+    4300798: C_C_shafa_vray_2K019
+    4300800: shafa 839
+    4300802: shafa 840
+    4300804: shafa 841
+    4300806: shafa 842
+    4300808: shafa 843
+    4300810: shafa 844
+    4300812: shafa 845
+    4300814: shafa 846
+    4300816: shafa 847
+    4300818: shafa 848
+    4300820: shafa 849
+    4300822: shafa 850
+    4300824: shafa 851
+    4300826: shafa 852
+    4300828: ceqiang
+    4300830: waiqiang
+    4300832: houqiang
+    4300834: waiqiang_floor
+    4300836: pingmu
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10pai
+    second: {fileID: 2100000, guid: cdf1ddc98067c944694a514bfe0c56f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11pai
+    second: {fileID: 2100000, guid: 2564b10136fd1194889af2a0d0e6ec05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1pai
+    second: {fileID: 2100000, guid: 411ae927179960342966bf0013370b6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2pai
+    second: {fileID: 2100000, guid: ff35dfa23729620429bcb372046a3e8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3pai
+    second: {fileID: 2100000, guid: 350ef69f67ab4e24091a560becbcefc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4pai
+    second: {fileID: 2100000, guid: fcfdee5fd8872dd43ab3860948e55d9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5pai
+    second: {fileID: 2100000, guid: fd67ac1855217b94c950575ae1050a5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 6pai
+    second: {fileID: 2100000, guid: 3f5f0f2ebe304c04e812832ef71c09b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7pai
+    second: {fileID: 2100000, guid: 5b7f5459317b4534f824ffd60f91ab24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 8pai
+    second: {fileID: 2100000, guid: df914a2258ab96946b6d42c18a8764b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 9pai
+    second: {fileID: 2100000, guid: e196e399086faf045a3970bb5334483c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceqiang
+    second: {fileID: 2100000, guid: a295a56d67f9f04428450905d14e094d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2100000, guid: f5620c42a5e09544787b686295dee45c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: houqiang
+    second: {fileID: 2100000, guid: a7dec6468ccaac04b919bf14e57d90e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: logo
+    second: {fileID: 2100000, guid: ff94f93074d9fcc4ab43bf350620b68c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waiqiang
+    second: {fileID: 2100000, guid: cac4d40fc65b53b468ec131c48f1778d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wuding
+    second: {fileID: 2100000, guid: aba99cb34fa7f6e42a882f53364b74fb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

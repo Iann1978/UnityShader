@@ -1,0 +1,47 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSOutBrightness0
+#pragma kernel CSOutBrightness1
+#pragma kernel CSScaleTexture0
+#pragma kernel CSScaleTexture1
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+Texture2D<float4> SourceTexture;
+RWTexture2D<float4> TempTexture0;
+RWTexture2D<float4> TempTexture1;
+
+
+RWStructuredBuffer<float> Result;
+
+
+[numthreads(1, 1, 1)]
+void CSScaleTexture0(uint3 id : SV_DispatchThreadID)
+{
+	TempTexture0[id.xy] = (TempTexture1[id.xy*2+float2(0,0)] + TempTexture1[id.xy * 2 + float2(0, 1)] + TempTexture1[id.xy * 2 + float2(1, 0)] + TempTexture1[id.xy * 2 + float2(1, 1)]) / 4.0;
+}
+
+[numthreads(1, 1, 1)]
+void CSScaleTexture1(uint3 id : SV_DispatchThreadID)
+{
+	TempTexture1[id.xy] = (TempTexture0[id.xy * 2 + float2(0, 0)] + TempTexture0[id.xy * 2 + float2(0, 1)] + TempTexture0[id.xy * 2 + float2(1, 0)] + TempTexture0[id.xy * 2 + float2(1, 1)]) / 4.0;
+}
+
+
+
+[numthreads(1,1,1)]
+void CSOutBrightness1 (uint3 id : SV_DispatchThreadID)
+{
+	Result[0] = TempTexture1[float2(0, 0)].x;
+	Result[1] = TempTexture1[float2(0, 0)].y;
+	Result[2] = TempTexture1[float2(0, 0)].z;
+}
+
+[numthreads(1, 1, 1)]
+void CSOutBrightness0(uint3 id : SV_DispatchThreadID)
+{
+	Result[0] = TempTexture0[float2(0, 0)].x;
+	Result[1] = TempTexture0[float2(0, 0)].y;
+	Result[2] = TempTexture0[float2(0, 0)].z;
+}
+
+
