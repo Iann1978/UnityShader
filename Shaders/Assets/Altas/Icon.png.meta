@@ -1,0 +1,1308 @@
+fileFormatVersion: 2
+guid: daaa753dfc58e754a93a00f1e49134ac
+timeCreated: 1486864511
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Adventure
+    21300002: Animal
+    21300004: Bag
+    21300006: Battle
+    21300008: Button001N
+    21300010: Button001P
+    21300012: Button08
+    21300014: Button09
+    21300016: Button10
+    21300018: Button12
+    21300020: Button13
+    21300022: Button14
+    21300024: Button15
+    21300026: Button16
+    21300028: Button17
+    21300030: Button18
+    21300032: Button19
+    21300034: Button20
+    21300036: Button21
+    21300038: Button22
+    21300040: ButtonHui
+    21300042: ChongZhi
+    21300044: DuiHUAN
+    21300046: Frame001
+    21300048: FuLiJiangLi
+    21300050: GaoJiShangDian
+    21300052: Head0001
+    21300054: Head0002
+    21300056: Head0003
+    21300058: Head0004
+    21300060: Head0005
+    21300062: Hero
+    21300064: HuoDong
+    21300066: KaiFuJiaNianHua
+    21300068: Labour
+    21300070: MeiRiQianDao
+    21300072: QiRiLiBao
+    21300074: Shop
+    21300076: ShouChongJiangLi
+    21300078: Summon
+    21300080: Task
+    21300082: TeamHeadFrame1000
+    21300084: TeamHeadFrame1001
+    21300086: TeamHeadFrame1002
+    21300088: TeamHeadFrame1003
+    21300090: TeamHeadFrame1004
+    21300092: TeamHeadFrame1005
+    21300094: Title001
+    21300096: VIPLiBao
+    21300098: WordBoss
+    21300100: XiMeiFuLi
+    21300102: XianShiChongZhi
+    21300104: ZaiXianJiangLi
+    21300106: ZhanLiBiPing
+    21300108: ZhuanPanHuoDong
+    21300110: check
+    21300112: coin01
+    21300114: coin02
+    21300116: coin03
+    21300118: coin04
+    21300120: coin05
+    21300122: diamond
+    21300124: exp
+    21300126: mail
+    21300128: plus
+    21300130: star
+    21300132: vigour
+    21300134: Icon24
+    21300136: Occupation-1
+    21300138: Occupation-2
+    21300140: Occupation-3
+    21300142: Occupation-4
+    21300144: HeroHead-0001
+    21300146: HeroHead-0002
+    21300148: HeroHead-0003
+    21300150: HeroHead-0004
+    21300152: HeroHead-0005
+    21300154: HeroQuality-0001
+    21300156: HeroQuality-0002
+    21300158: HeroQuality-0003
+    21300160: HeroQuality-0004
+    21300162: HeroQuality-0005
+    21300164: Occupation-0001
+    21300166: Occupation-0002
+    21300168: Occupation-0003
+    21300170: Occupation-0004
+    21300172: TeamHeadFrame-0001
+    21300174: TeamHeadFrame-0002
+    21300176: TeamHeadFrame-0003
+    21300178: TeamHeadFrame-0004
+    21300180: TeamHeadFrame-0005
+    21300182: TeamHeadFrame-0006
+    21300184: HeroOccupation-0001
+    21300186: HeroOccupation-0002
+    21300188: HeroOccupation-0003
+    21300190: HeroOccupation-0004
+    21300192: Button-Mini-0001
+    21300194: ChaCha
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adventure
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 196
+        width: 93
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Animal
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 206
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Bag
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Battle
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 301
+        width: 93
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button-Mini-0001
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 5
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button08
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 274
+        width: 85
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button09
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 70
+        width: 83
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button10
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 205
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button12
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 142
+        width: 140
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button13
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 332
+        width: 115
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 0, z: 18, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button14
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 392
+        width: 115
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 0, z: 18, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button15
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 208
+        width: 176
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button16
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 446
+        width: 176
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button17
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 111
+        width: 75
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button18
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 158
+        width: 75
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button19
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 295
+        width: 108
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button20
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 353
+        width: 192
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button21
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 82
+        width: 140
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Button22
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 23
+        width: 82
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ButtonHui
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 452
+        width: 115
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ChaCha
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 5
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ChongZhi
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 410
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DuiHUAN
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 308
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FuLiJiangLi
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 2
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GaoJiShangDian
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 104
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Head0001
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 206
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Head0002
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 410
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Head0003
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 308
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Head0004
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 2
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Head0005
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 104
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hero
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 112
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroHead-0001
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 206
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroHead-0002
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 410
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroHead-0003
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 308
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroHead-0004
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 2
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroHead-0005
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 104
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroOccupation-0001
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 29
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroOccupation-0002
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 29
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroOccupation-0003
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 39
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroOccupation-0004
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 70
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroQuality-0001
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 236
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroQuality-0002
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 133
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroQuality-0003
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 25
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroQuality-0004
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 425
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HeroQuality-0005
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 323
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HuoDong
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 206
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Icon24
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 281
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: KaiFuJiaNianHua
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 410
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Labour
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 6
+        width: 95
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: MeiRiQianDao
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 308
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: QiRiLiBao
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 2
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Shop
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 220
+        width: 84
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ShouChongJiangLi
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 104
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Summon
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 406
+        width: 101
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Task
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 4
+        width: 84
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame-0001
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 206
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame-0002
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 410
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame-0003
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 308
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame-0004
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame-0005
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 104
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame-0006
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 206
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame1000
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 206
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame1001
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 410
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame1002
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 308
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame1003
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame1004
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 104
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TeamHeadFrame1005
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 206
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: VIPLiBao
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 410
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WordBoss
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 308
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: XiMeiFuLi
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: XianShiChongZhi
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 202
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZaiXianJiangLi
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 410
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZhanLiBiPing
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 304
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ZhuanPanHuoDong
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 94
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: check
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 248
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: coin01
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 40
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: coin02
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 28
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: coin03
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 28
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: coin04
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 80
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: coin05
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 111
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: diamond
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 153
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: exp
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 122
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mail
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 195
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: plus
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 328
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 7
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vigour
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 164
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: icon
+  assetBundleVariant: 

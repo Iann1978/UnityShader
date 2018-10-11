@@ -1,0 +1,18 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> Tex10;
+RWTexture2D<float4> Tex11;
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	// TODO: insert actual code here!
+
+	//Tex11[id.xy] = float4(id.x & id.y, (id.x & 31)/31.0, (id.y & 31)/31.0, 0.0);
+	Tex11[id.xy] = (Tex10[id.xy * 2+float2(0,0)] + Tex10[id.xy * 2+float2(1,0)] + Tex10[id.xy * 2+float2(0,1)] + Tex10[id.xy * 2+float2(1,1)]) / 4.0;
+}
+
+

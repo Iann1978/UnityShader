@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: g001_xianrenzhang
+  m_Shader: {fileID: 4800000, guid: 6d57f16afcda5064d9e68a673db58c82, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: d03c4dbfb2957cf409dc232eb12cc909, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: 50ca583a4440b4b41b7e6b96f34ed45e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Base
+        second:
+          m_Texture: {fileID: 2800000, guid: 50ca583a4440b4b41b7e6b96f34ed45e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 2800000, guid: cdb9172662ebdaa48b7f9925f50842fa, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 5.84000015
+      data:
+        first:
+          name: _Emission
+        second: .300000012
+      data:
+        first:
+          name: _Warp
+        second: 2.97000003
+      data:
+        first:
+          name: _Ambient
+        second: 1
+      data:
+        first:
+          name: _Alpha
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: .5
+      data:
+        first:
+          name: _RimPower
+        second: 6
+      data:
+        first:
+          name: _OutlineWidth
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _LightDir
+        second: {r: -.170000002, g: 10.0699997, b: 5.05999994, a: 0}
+      data:
+        first:
+          name: _LightColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: .102941155, g: .102941155, b: .102941155, a: 1}
+      data:
+        first:
+          name: _AddColor
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .29411763, g: .0791075006, b: 0, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}
