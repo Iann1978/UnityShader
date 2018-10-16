@@ -1,3 +1,14 @@
 Shaders/Library/
 Shaders/Temp/
 Shaders/Packages/manifest.json
+Shaders/obj/
+Shaders/.vs/Shaders/v15/Server/sqlite3/storage.ide-wal
+Shaders/.vs/Shaders/v15/Server/sqlite3/storage.ide
+Shaders/.vs/Shaders/v15/Server/sqlite3/db.lock
+Shaders/.vs/Shaders/v15/Browse.VC.opendb
+Shaders/.vs/Shaders/v15/Server/sqlite3/storage.ide-shm
+Shaders/Assembly-CSharp.csproj
+Shaders/Assembly-CSharp-Editor.csproj
+Shaders/.vs/Shaders/v15/.suo
+Shaders/Shaders.sln
+Shaders/.vs/Shaders/v15/Browse.VC.db
