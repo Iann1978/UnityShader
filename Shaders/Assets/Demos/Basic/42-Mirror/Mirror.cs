@@ -18,8 +18,8 @@ public class Mirror : MonoBehaviour {
 
     Dictionary<Camera, MirrorCameraData> mirrorCameraDatas = new Dictionary<Camera, MirrorCameraData>();
     public int cullingMask = 0;
-    
-    
+    [HideInInspector]
+    public bool dirty = true;
 
 
     Vector3 MirrorPosition(Vector3 pos, Vector3 o, Vector3 n)
@@ -50,11 +50,15 @@ public class Mirror : MonoBehaviour {
         Camera mirrorCamera = mirrorCameraData.mirrorCamera;
         Camera sourceCamera = mirrorCameraData.sourceCamera;
         RenderTexture mirrorTexture = mirrorCameraData.mirrorTexture;
-        if (mirrorTexture != null && (mirrorTexture.width != sourceCamera.pixelWidth || mirrorTexture.height != sourceCamera.pixelHeight))
+        if (dirty || (mirrorTexture != null && (mirrorTexture.width != sourceCamera.pixelWidth || mirrorTexture.height != sourceCamera.pixelHeight)))
         {
             mirrorCamera.targetTexture = null;
-            mirrorTexture.Release();
-            mirrorTexture = null;
+            if (mirrorTexture != null)
+            {
+                mirrorTexture.Release();
+                mirrorTexture = null;
+            }
+            dirty = false;
         }
 
         if (mirrorTexture == null)
