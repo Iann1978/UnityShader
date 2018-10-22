@@ -25,6 +25,7 @@ Shader "Iann/Basic/Mirror" {
 			//Blend One One
 			Blend SrcAlpha OneMinusSrcAlpha
             
+            
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -32,7 +33,7 @@ Shader "Iann/Basic/Mirror" {
             #include "UnityCG.cginc"
             #pragma multi_compile_fwdbase_fullshadows
             #pragma multi_compile_fog
-            #pragma exclude_renderers gles3 metal d3d11_9x xbox360 xboxone ps3 ps4 psp2 
+            //#pragma exclude_renderers gles3 metal d3d11_9x xbox360 xboxone ps3 ps4 psp2 
             #pragma target 3.0
 			uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform sampler2D _MirrorTex; uniform float4 _MirrorTex_ST;
@@ -63,25 +64,10 @@ Shader "Iann/Basic/Mirror" {
 				float4 mainColor = tex2D(_MainTex, input.uv);
 				float4 mirrorColor = tex2Dlod(_MirrorTex, float4(input.screenPos.rg,0, _Roughness));
 				c = float4(mainColor.rgb*_BaseColor.rgb + mirrorColor.rgb*0.2, mirrorColor.a);
-				//c.r += 0.2;
-				//input.screenPos2.xy /= input.screenPos2.w;
-				//if (input.screenPos2.x > -1 && input.screenPos2.x < 1 && input.screenPos2.y>-1 && input.screenPos2.y < 1)
-				//	;
-				//else
-				//{
-				//	c.rgb = 0;
-				//	//c.a = 1;
-				//}
-					
-				
-				//	c.g += 0.2;
-				//c = float4(input.screenPos.xy, 0, 1);
-
-				//c = tex2D(_MirrorTex, v.uv);
 			}
             ENDCG
         }
     }
-    FallBack "Diffuse"
-    CustomEditor "ShaderForgeMaterialInspector"
+    //FallBack "Diffuse"
+   //CustomEditor "ShaderForgeMaterialInspector"
 }
