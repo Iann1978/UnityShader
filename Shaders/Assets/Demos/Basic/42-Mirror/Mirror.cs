@@ -11,16 +11,47 @@ class MirrorCameraData
 }
 
 [ExecuteInEditMode]
-public class Mirror : MonoBehaviour {
-
-    //Camera mirrorCamera;
-    //RenderTexture mirrorTexture;
-
-    Dictionary<Camera, MirrorCameraData> mirrorCameraDatas = new Dictionary<Camera, MirrorCameraData>();
+public class Mirror : MonoBehaviour
+{
+    Dictionary<Camera, Camera> mirrorCameras = new Dictionary<Camera, Camera>();
     public int cullingMask = 0;
     [HideInInspector]
     public bool dirty = true;
 
+    public Transform mirrorCameraRoot;
+
+
+    private void Awake()
+    {
+        Debug.Log("Mirror.Awake");
+        Renderer renderer = GetComponent<Renderer>();
+        renderer.material = new Material(renderer.material);
+
+    }
+
+
+    private void OnEnable()
+    {
+        mirrorCameraRoot = transform.Find("Mirror Camera's Root");
+        if (mirrorCameraRoot == null)
+        {
+            mirrorCameraRoot = new GameObject("Mirror Camera's Root").transform;
+            mirrorCameraRoot.transform.SetParent(transform);
+            mirrorCameraRoot.transform.localScale = Vector3.one;
+            mirrorCameraRoot.transform.localPosition = Vector3.zero;
+            mirrorCameraRoot.transform.localRotation = Quaternion.identity;
+            mirrorCameraRoot.hideFlags = HideFlags.HideInHierarchy | HideFlags.HideInInspector;
+        }
+    }
+
+    private void OnDisable()
+    {
+#if UNITY_EDITOR
+        DestroyImmediate(mirrorCameraRoot.gameObject);
+#else
+        Destroy(mirrorCameraRoot.gameObject);
+#endif
+    }
 
     Vector3 MirrorPosition(Vector3 pos, Vector3 o, Vector3 n)
     {
@@ -35,52 +66,88 @@ public class Mirror : MonoBehaviour {
         return dir - n * 2 * Vector3.Dot(dir, n);
     }
 
-    void UpdateMirrorCameraPosition(Camera mirrorCamera, Camera sourceCamera, Transform mirrorTransform)
+    Camera GetMirrorCamera(Camera sourceCamera)
+    {
+        if (mirrorCameras.ContainsKey(sourceCamera))
+        {
+            Camera mirrorCamera = mirrorCameras[sourceCamera];
+            if (mirrorCamera != null && mirrorCamera.gameObject != null &&
+                mirrorCamera.GetComponent<MirrorCamera>() != null
+                && mirrorCamera.GetComponent<MirrorCamera>().sourceCamera == sourceCamera)
+            {
+                return mirrorCameras[sourceCamera];
+            }
+
+            if (mirrorCamera != null)
+            {
+
+
+                Debug.Log("Mirror.GetMirrorCamera Destroy the mirror camera.");
+                RenderTexture mirrorTexture = mirrorCamera.targetTexture;
+                mirrorCamera.targetTexture = null;
+                mirrorTexture.Release();
+
+#if UNITY_EDITOR
+                DestroyImmediate(mirrorCamera.gameObject);
+#else
+                Destroy(mirrorCamera.gameObject);
+#endif
+            }
+
+            mirrorCameras.Remove(sourceCamera);
+        }
+            
+
+        GameObject go = new GameObject("Mirror camera of " + sourceCamera.name, typeof(Camera), typeof(MirrorCamera));
+        go.tag = "MirrorCamera";
+        go.hideFlags = HideFlags.DontSave;
+        go.SetActive(false);
+        go.GetComponent<MirrorCamera>().sourceCamera = sourceCamera;
+        go.transform.SetParent(mirrorCameraRoot);
+        mirrorCameras.Add(sourceCamera, go.GetComponent<Camera>());
+        return go.GetComponent<Camera>();
+    }
+
+
+    void UpdateMirrorCamerasTexture(Camera sourceCamera, ref Camera mirrorCamera)
+    {
+        if (mirrorCamera.targetTexture != null && (
+            mirrorCamera.targetTexture.width != sourceCamera.pixelWidth || mirrorCamera.targetTexture.height != sourceCamera.pixelHeight))
+        {
+            RenderTexture.ReleaseTemporary(mirrorCamera.targetTexture);
+            mirrorCamera.targetTexture = null;
+        }
+
+        if (mirrorCamera.targetTexture == null)
+        {
+            RenderTextureDescriptor textureDesc = new RenderTextureDescriptor(sourceCamera.pixelWidth, sourceCamera.pixelHeight);
+            textureDesc.useMipMap = true;
+            mirrorCamera.targetTexture = RenderTexture.GetTemporary(textureDesc);
+        }
+    }
+
+    void UpdateMirrorCameraPosition(Camera sourceCamera, ref Camera mirrorCamera, Transform mirrorTransform)
     {
         Vector3 mirrorPosition = MirrorPosition(sourceCamera.transform.position, mirrorTransform.position, mirrorTransform.forward);
         mirrorCamera.transform.position = mirrorPosition;
-        Vector3 forward = MirrorDir(sourceCamera.transform.forward, mirrorTransform.forward); 
+        Vector3 forward = MirrorDir(sourceCamera.transform.forward, mirrorTransform.forward);
         Vector3 upwards = MirrorDir(sourceCamera.transform.up, mirrorTransform.forward);
         Quaternion rotation = Quaternion.LookRotation(forward, upwards);
         mirrorCamera.transform.rotation = rotation;
     }
 
-    void UpdateMirrorCameraParameters(ref MirrorCameraData mirrorCameraData)
+    void UpdateMirrorCamerasParameters(Camera sourceCamera, ref Camera mirrorCamera, RenderTexture mirrorTexture)
     {
-        Camera mirrorCamera = mirrorCameraData.mirrorCamera;
-        Camera sourceCamera = mirrorCameraData.sourceCamera;
-        RenderTexture mirrorTexture = mirrorCameraData.mirrorTexture;
-        if (dirty || (mirrorTexture != null && (mirrorTexture.width != sourceCamera.pixelWidth || mirrorTexture.height != sourceCamera.pixelHeight)))
-        {
-            mirrorCamera.targetTexture = null;
-            if (mirrorTexture != null)
-            {
-                mirrorTexture.Release();
-                mirrorTexture = null;
-            }
-            dirty = false;
-        }
-
-        if (mirrorTexture == null)
-        {
-            Debug.Log("new RenderTexture(sourceCamera.pixelWidth, sourceCamera.pixelHeight, 8)");
-            mirrorTexture = new RenderTexture(sourceCamera.pixelWidth, sourceCamera.pixelHeight, 8);
-            //mirrorTexture = new RenderTexture(512, 512, 8);
-            mirrorTexture.useMipMap = true;
-            mirrorCamera.CopyFrom(sourceCamera);
-            mirrorCamera.targetDisplay = 1;
-            mirrorCamera.targetTexture = mirrorTexture;
-            mirrorCamera.cullingMask = cullingMask;
-            mirrorCamera.backgroundColor = Color.black;
-            mirrorCamera.clearFlags = CameraClearFlags.Color;
-        }
-        mirrorCameraData.mirrorTexture = mirrorTexture;
+        mirrorCamera.CopyFrom(sourceCamera);
+        //mirrorCamera.targetDisplay = 1;
+        mirrorCamera.targetTexture = mirrorTexture;
+        mirrorCamera.cullingMask = cullingMask;
+        mirrorCamera.backgroundColor = Color.black;
+        mirrorCamera.clearFlags = CameraClearFlags.Color;
     }
 
-    void UpdateMirrorObjectMaterial(MirrorCameraData mirrorCameraData)
+    void UpdateMaterial(Camera mirrorCamera, RenderTexture mirrorTexture)
     {
-        Camera mirrorCamera = mirrorCameraData.mirrorCamera;
-        RenderTexture mirrorTexture = mirrorCameraData.mirrorTexture;
         Renderer rd = GetComponent<Renderer>();
         rd.sharedMaterial.SetTexture("_MirrorTex", mirrorTexture);
         Matrix4x4 projMat = GL.GetGPUProjectionMatrix(mirrorCamera.projectionMatrix, false);
@@ -88,71 +155,47 @@ public class Mirror : MonoBehaviour {
         Matrix4x4 viewMat = mirrorCamera.worldToCameraMatrix;
         rd.sharedMaterial.SetMatrix("_ViewMat", viewMat);
     }
-    
-    MirrorCameraData GetMirrorCameraData(Camera sourceCamera)
+
+
+    void UpdateCamera(Camera sourceCamera)
     {
-        if (mirrorCameraDatas.ContainsKey(sourceCamera))
-        {
-            return mirrorCameraDatas[sourceCamera];
-        }
-
-        var mirrorCameraMgr = GameObject.Find("Mirror Camera Manager");
-        if (mirrorCameraMgr == null)
-        {
-            mirrorCameraMgr = new GameObject("Mirror Camera Manager");
-            mirrorCameraMgr.transform.position = Vector3.zero;
-            mirrorCameraMgr.transform.rotation = Quaternion.identity;
-            mirrorCameraMgr.transform.localScale = Vector3.one;
-        }
-
-        string mirrorCameraName = "Mirror camera of " + Camera.current.name + " by " + name;
-        GameObject goMirrorCamera = null;
-        for (int i = 0; i < mirrorCameraMgr.transform.childCount; i++)
-        {
-            if (mirrorCameraMgr.transform.GetChild(i).name.CompareTo(mirrorCameraName) == 0)
-            {
-                goMirrorCamera = mirrorCameraMgr.transform.GetChild(i).gameObject;
-                break;
-            }
-        }
-
-
-        if (goMirrorCamera == null)
-        {
-            goMirrorCamera = new GameObject("Mirror camera of " + Camera.current.name + " by " + name, typeof(Camera));
-            goMirrorCamera.hideFlags = HideFlags.DontSave;
-            goMirrorCamera.tag = "MirrorCamera";
-            goMirrorCamera.transform.parent = mirrorCameraMgr.transform;
-        }
-        goMirrorCamera.SetActive(false);
-
-        MirrorCameraData mirrorData = new MirrorCameraData();
-        mirrorData.sourceCamera = sourceCamera;
-        mirrorData.mirrorCamera = goMirrorCamera.GetComponent<Camera>();
-        mirrorCameraDatas.Add(sourceCamera, mirrorData);
-        return mirrorData;
-    }
-
-    void UpdateMirrorTexture()
-    {
-        MirrorCameraData mirrorCameraData = GetMirrorCameraData(Camera.current);
-        UpdateMirrorCameraParameters(ref mirrorCameraData);
-        UpdateMirrorCameraPosition(mirrorCameraData.mirrorCamera, Camera.current, transform);
-        mirrorCameraData.mirrorCamera.Render();
-        UpdateMirrorObjectMaterial(mirrorCameraData);
+        GetComponent<Renderer>().sharedMaterial.SetTexture("_MirrorTex", null);
+        Camera mirrorCamera = GetMirrorCamera(sourceCamera);
+        UpdateMirrorCamerasTexture(sourceCamera, ref mirrorCamera);
+        RenderTexture mirrorTexture = mirrorCamera.targetTexture;
+        UpdateMirrorCamerasParameters(sourceCamera, ref mirrorCamera, mirrorTexture);
+        UpdateMirrorCameraPosition(sourceCamera, ref mirrorCamera, transform);
+        mirrorCamera.Render();
+        UpdateMaterial(mirrorCamera, mirrorTexture);
     }
 
     public void OnWillRenderObject()
     {
         if (Camera.current == Camera.main)
         {
-            UpdateMirrorTexture();
+            UpdateCamera(Camera.current);
         }
 
 
         if (Camera.current.cameraType == CameraType.SceneView && Camera.current.tag.CompareTo("MirrorCamera") != 0)
         {
-            UpdateMirrorTexture();
+            UpdateCamera(Camera.current);
         }
+
+        //ClearInvalideCameras();
+    }
+
+    void DestroyMirrorCamera(Camera mirrorCamera)
+    {
+        Debug.Log("Mirror.GetMirrorCamera Destroy the mirror camera.");
+        RenderTexture mirrorTexture = mirrorCamera.targetTexture;
+        mirrorCamera.targetTexture = null;
+        mirrorTexture.Release();
+
+#if UNITY_EDITOR
+        DestroyImmediate(mirrorCamera.gameObject);
+#else
+        Destroy(mirrorCamera.gameObject);
+#endif
     }
 }

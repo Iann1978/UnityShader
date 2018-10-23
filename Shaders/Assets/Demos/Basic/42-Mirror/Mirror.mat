@@ -18,6 +18,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MirrorTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -26,5 +30,7 @@ Material:
         m_Texture: {fileID: 8400000, guid: 24412233ab76bb3489929625572472bf, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _Roughness: 0
+    m_Colors:
+    - _BaseColor: {r: 0.05, g: 0.1, b: 0.1, a: 1}
