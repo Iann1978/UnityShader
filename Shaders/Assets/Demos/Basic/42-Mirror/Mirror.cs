@@ -14,10 +14,12 @@ class MirrorCameraData
 public class Mirror : MonoBehaviour
 {
     Dictionary<Camera, Camera> mirrorCameras = new Dictionary<Camera, Camera>();
+    [HideInInspector]
     public int cullingMask = 0;
+    public Transform mirrorTransform;
     [HideInInspector]
     public bool dirty = true;
-
+    [HideInInspector]
     public Transform mirrorCameraRoot;
 
 
@@ -27,11 +29,15 @@ public class Mirror : MonoBehaviour
         Renderer renderer = GetComponent<Renderer>();
         renderer.material = new Material(renderer.material);
 
+
     }
 
 
     private void OnEnable()
     {
+        if (mirrorTransform == null)
+            mirrorTransform = transform;
+
         mirrorCameraRoot = transform.Find("Mirror Camera's Root");
         if (mirrorCameraRoot == null)
         {
@@ -40,7 +46,7 @@ public class Mirror : MonoBehaviour
             mirrorCameraRoot.transform.localScale = Vector3.one;
             mirrorCameraRoot.transform.localPosition = Vector3.zero;
             mirrorCameraRoot.transform.localRotation = Quaternion.identity;
-            mirrorCameraRoot.hideFlags = HideFlags.HideInHierarchy | HideFlags.HideInInspector;
+            //mirrorCameraRoot.hideFlags = HideFlags.HideInHierarchy | HideFlags.HideInInspector;
         }
     }
 
@@ -144,6 +150,7 @@ public class Mirror : MonoBehaviour
         mirrorCamera.cullingMask = cullingMask;
         mirrorCamera.backgroundColor = Color.black;
         mirrorCamera.clearFlags = CameraClearFlags.Color;
+        mirrorCamera.useOcclusionCulling = false;
     }
 
     void UpdateMaterial(Camera mirrorCamera, RenderTexture mirrorTexture)
@@ -164,7 +171,7 @@ public class Mirror : MonoBehaviour
         UpdateMirrorCamerasTexture(sourceCamera, ref mirrorCamera);
         RenderTexture mirrorTexture = mirrorCamera.targetTexture;
         UpdateMirrorCamerasParameters(sourceCamera, ref mirrorCamera, mirrorTexture);
-        UpdateMirrorCameraPosition(sourceCamera, ref mirrorCamera, transform);
+        UpdateMirrorCameraPosition(sourceCamera, ref mirrorCamera, mirrorTransform);
         mirrorCamera.Render();
         UpdateMaterial(mirrorCamera, mirrorTexture);
     }

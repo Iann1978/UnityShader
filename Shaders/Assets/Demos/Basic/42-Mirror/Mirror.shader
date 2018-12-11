@@ -11,6 +11,7 @@ Shader "Iann/Basic/Mirror" {
 		_MainTex ("Main Texture", 2D) = "white" {}
 		_BaseColor ("Base Color(RGB)", Color) = (0.05,0.1,0.1,1)
 		_Roughness ("Roughness", Range(0,8)) = 0
+		_ReflectRate ("ReflectRate", Range(0,1)) = 0.75
     }
     SubShader {
         Tags {
@@ -42,6 +43,7 @@ Shader "Iann/Basic/Mirror" {
 			uniform float4x4 _ViewMat;
 			uniform float4 _BaseColor;
 			uniform float _Roughness;
+			uniform float _ReflectRate;
 			struct v2f {
 				float4 pos : SV_POSITION;
 				float2 uv :	TEXCOORD0;
@@ -63,7 +65,7 @@ Shader "Iann/Basic/Mirror" {
 				
 				float4 mainColor = tex2D(_MainTex, input.uv);
 				float4 mirrorColor = tex2Dlod(_MirrorTex, float4(input.screenPos.rg,0, _Roughness));
-				c = float4(mainColor.rgb*_BaseColor.rgb + mirrorColor.rgb*0.2, mirrorColor.a);
+				c = float4(mainColor.rgb*_BaseColor.rgb + mirrorColor.rgb*_ReflectRate, mirrorColor.a);
 			}
             ENDCG
         }
