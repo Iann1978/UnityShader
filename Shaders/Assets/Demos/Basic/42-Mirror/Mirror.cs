@@ -46,7 +46,7 @@ public class Mirror : MonoBehaviour
             mirrorCameraRoot.transform.localScale = Vector3.one;
             mirrorCameraRoot.transform.localPosition = Vector3.zero;
             mirrorCameraRoot.transform.localRotation = Quaternion.identity;
-            //mirrorCameraRoot.hideFlags = HideFlags.HideInHierarchy | HideFlags.HideInInspector;
+            mirrorCameraRoot.hideFlags = HideFlags.HideInHierarchy | HideFlags.HideInInspector;
         }
     }
 
