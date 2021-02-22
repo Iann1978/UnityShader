@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: My_Basic_BlinnPhoneWithNormal
-  m_Shader: {fileID: 4800000, guid: 3d3944deedb7866429b2be75d0b2cf41, type: 3}
+  m_Name: My_Basic_Lambert
+  m_Shader: {fileID: 4800000, guid: 4a30ed60e30ba68408e7b96e2b5f5c31, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
@@ -19,16 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Albedo:
-        m_Texture: {fileID: 2800000, guid: d0d0678d070bd974682f7ad8c22a68b4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Normal:
+    - _BaseTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _Gloss: 0.437
-    - _SpecColor: 7.32
-    - _Specular: 314.02
-    m_Colors: []
+    m_Floats: []
+    m_Colors:
+    - _BaseColor: {r: 0.77205884, g: 0.090830445, b: 0.090830445, a: 1}

@@ -7,7 +7,7 @@ shader "My/Basic/PlinngPhoneWithNormal"
 	Properties
 	{
 		_Albedo("Albedo", 2D) = "white" {}
-		_Normal("Normal", 2D) = "blue" {}
+		_Normal("Normal", 2D) = "bump" {}
 		_Specular("Specular", Float) = 128
 		_Gloss("Gloss", Range(0,1)) = 0.5
 	}

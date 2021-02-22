@@ -7,7 +7,7 @@ shader "My/Basic/LambertWithNormal"
 	Properties
 	{
 		_BaseColor("Base Color", Color) = (1,1,1,1)
-		_NormalTex("Normal Texture", 2D) = "blue" {}
+		_NormalTex("Normal Texture", 2D) = "bump" {}
 	}
 
 	SubShader
@@ -70,9 +70,12 @@ shader "My/Basic/LambertWithNormal"
 				float3 binormalDir = normalize(cross(normalDir, tangentDir)* input.tangent.w);
 				float3 normalDirInTargent = UnpackNormal(tex2D(_NormalTex, input.uv));
 				float3 normal = normalDirInTargent.x * tangentDir + normalDirInTargent.y * binormalDir  + normalDirInTargent.z * normalDir;
+				//normal = 1 * tangentDir + normalDirInTargent.z * normalDir;
 				float NdotL = max(0.0f, dot(normal, lightDir));
 				float3 lightColor = _LightColor0.xyz;
 				c.rgb = lightColor * NdotL;
+				//c.rgb = normalDirInTargent;
+				//c.rgb = normalDirInTargent;
 				c.a = 1.0f;
 			}
 
